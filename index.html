@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>comentarios</title>
+</head>
+<body>
+  <form class="form-convalidaciones" >
+    <div>
+      <label for="nombre">nombre</label>
+      <input type="text" id="nombre">
+    </div>
+
+    <div>
+      <label for="mensaje">mensaje</label>
+      <textarea id="mensaje"></textarea>
+    </div>
+    <button id="btnEnviar" type="button">enviar</button>
+  </form>
+
+
+  <ul id="chatUl">
+
+  </ul>
+
+
+<script src="https://www.gstatic.com/firebasejs/4.8.2/firebase.js"></script>
+<script>
+  // Initialize Firebase
+  var config = {
+    apiKey: "AIzaSyCFO3p2OYW-Wgme2QrcfUdHmOMsJSLAC38",
+    authDomain: "chat-43a94.firebaseapp.com",
+    databaseURL: "https://chat-43a94.firebaseio.com",
+    projectId: "chat-43a94",
+    storageBucket: "",
+    messagingSenderId: "826771645772"
+  };
+  firebase.initializeApp(config);
+
+
+
+</script>
+  <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.2.1.min.js"></script>
+<script type="text/javascript" src="app.js">
+
+</script>
+</body>
+</html>
